@@ -1,11 +1,23 @@
 h3 {
-   color: brown;
-}
-
-img {
-
+  /* color: brown; */
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .photos {
-   text-align: center;
+  text-align: center;
+}
+
+.photos img {
+  width: 100%;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.photos img:hover {
+  transform: translateX(10px);
 }

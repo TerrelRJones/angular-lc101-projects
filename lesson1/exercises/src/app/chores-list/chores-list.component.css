@@ -1,8 +1,14 @@
 .chores h3 {
+  /* text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: crimson;
   font-size: 1.5rem;
-  text-decoration: underline;
+  text-decoration: underline; */
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .chores ul {

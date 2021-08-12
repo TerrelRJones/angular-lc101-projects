@@ -1,0 +1,29 @@
+.link__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.link__links {
+  display: flex;
+  align-items: center;
+}
+
+.link__links li {
+  list-style-type: none;
+  color: red;
+  transition: 0.2s ease-in-out;
+}
+.link__container li:hover {
+  transform: translateY(-2px);
+}
+
+.link__container a {
+  text-decoration: none;
+  color: blue;
+  margin-right: 2rem;
+  font-weight: 800;
+  cursor: pointer;
+}
