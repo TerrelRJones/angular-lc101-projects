@@ -2,6 +2,13 @@
     color: #ff4f33;
 }
 
+.message {
+    text-transform: uppercase;
+    color: red;
+    font-family: sans-serif;
+    font-weight: 800;
+}
+
 .doneChores {
     color: #3c79b8;
 }
