@@ -18,3 +18,11 @@ img {
 .crew {
     color: #3c79b8;
 }
+
+li {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
